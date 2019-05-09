@@ -1,0 +1,63 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+partion is a Catch v2.0.1 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+Factorials are computed, 
+-------------------------------------------------------------------------------
+partion.cpp:18
+...............................................................................
+
+partion.cpp:23: 
+PASSED:
+  CHECK( lower <= pivot_idx )
+with expansion:
+  0 <= 3
+
+partion.cpp:24: 
+PASSED:
+  CHECK( upper <= N )
+with expansion:
+  10 <= 10
+
+partion.cpp:25: 
+PASSED:
+  CHECK( pivot_idx < upper )
+with expansion:
+  3 < 10
+
+partion.cpp:25: 
+PASSED:
+  CHECK( pivot_idx >= lower )
+with expansion:
+  3 >= 0
+
+partion.cpp:13: 
+PASSED:
+  CHECK( greater_equal(a,pivot,lower,left) )
+with expansion:
+  true
+
+partion.cpp:14: 
+PASSED:
+  CHECK( less_equal(a,pivot,right+1,upper-1) )
+with expansion:
+  true
+
+partion.cpp:27: 
+PASSED:
+  CHECK( lower <= result )
+with expansion:
+  0 <= 0
+
+partion.cpp:28: 
+PASSED:
+  CHECK( upper > result )
+with expansion:
+  10 > 0
+
+0.000 s: Factorials are computed, 
+===============================================================================
+All tests passed (8 assertions in 1 test case)
+

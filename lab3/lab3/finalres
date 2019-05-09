@@ -1,0 +1,42 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+select is a Catch v2.0.1 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+hrs
+-------------------------------------------------------------------------------
+select.cpp:49
+...............................................................................
+
+select.cpp:32: 
+PASSED:
+  CHECK( n1+n2+n3 == b )
+with expansion:
+  10 == 10
+
+select.cpp:32: 
+PASSED:
+  CHECK( n1+n2+n3 == b )
+with expansion:
+  6 == 6
+
+select.cpp:63: 
+PASSED:
+  REQUIRE( select(array, N/2, 0, N) == 21 )
+with expansion:
+  21 == 21
+
+select() took 0.000159971 seconds.
+select.cpp:78: 
+PASSED:
+  REQUIRE( brray[N/2] == 21 )
+with expansion:
+  21 == 21
+
+sort() took 2.4478e-05 seconds.
+selectTimeSpan - sortTimeSpan = 0.000135493 seconds.
+0.000 s: hrs
+===============================================================================
+All tests passed (4 assertions in 1 test case)
+
